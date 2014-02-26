@@ -11,3 +11,26 @@ body{
 a{
   text-decoration:none;
 }
+
+/**
+ * Layout
+ */
+
+header{
+  background:#2A2E39;
+  height:120px;
+}
+
+header h1{
+  margin:0;
+  padding:0;
+}
+
+header h1 a{
+  background:url(../img/logo.png) no-repeat;
+  display:block;
+  height:50px;
+  outline:none;
+  text-indent:-9999px;
+  width:250px;
+}
