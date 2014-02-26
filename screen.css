@@ -238,6 +238,53 @@ nav ul li ul{
   display: block;
 }
 
+#clients:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#clients{
+  background:#B6B6B6;
+  padding:24px 0 48px 0;
+}
+
+#clients h2{
+  font-family:"Brandon Grotesque Regular";
+  font-size:36px;
+  margin:0;
+  padding:0;
+  text-transform:uppercase;
+}
+
+#clients ul{
+  margin:40px 0;
+  padding:0;
+  position:relative;
+  text-align:center;
+}
+
+#clients ul:before{
+  content: url(img/arrow-left.png);
+  position:absolute;
+  left:-30px;
+  top:10px;
+}
+
+#clients ul:after{
+  content: url(img/arrow-right.png);
+  position:absolute;
+  right:-30px;
+  top:10px;
+}
+
+#clients ul li{
+  display:inline-block;
+  list-style-type: none;
+  padding:0 30px;
+}
+
+
 /**
  * Classes
  */
