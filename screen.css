@@ -284,6 +284,91 @@ nav ul li ul{
   padding:0 30px;
 }
 
+/* Clear Fix */
+footer:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+footer{
+  background:#292E39;
+  padding:24px 0 32px 0;
+}
+
+footer h2{
+  display:none;
+}
+
+footer p{
+  color: #B6B6B6;
+  font-size:14px;
+  margin:5px 0 0 0;
+  padding: 0;
+}
+
+footer ul{
+  margin:0;
+  padding:0;
+}
+
+footer ul li{
+  border-right:1px solid #B6B6B6;
+  display:inline-block;
+  list-style-type:none;
+  padding:0 8px;
+}
+
+footer ul li:first-child{
+  padding-left:0;
+}
+
+footer ul li:last-child{
+  border-right:0;
+}
+
+footer ul li a{
+  color:#EB6D4C;
+  font-size:14px;
+  text-decoration: none;
+}
+
+footer .social{
+  position:absolute;
+  right:0;
+}
+
+footer .social li{
+  border-right:0;
+}
+
+footer .social li a{
+  display:block;
+  height:32px;
+  outline:0;
+  text-indent:-9999px;
+  width:32px;
+}
+
+footer .social li a.facebook{
+  background:url(img/social-facebook.png) no-repeat;
+}
+
+footer .social li a.twitter{
+  background:url(img/social-twitter.png) no-repeat;
+}
+
+footer .social li a.youtube{
+  background:url(img/social-youtube.png) no-repeat;
+}
+
+footer .social li a.pinterest{
+  background:url(img/social-pinterest.png) no-repeat;
+}
+
+footer .social li a.rss{
+  background:url(img/social-rss.png) no-repeat;
+}
 
 /**
  * Classes
