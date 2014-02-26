@@ -122,7 +122,49 @@ nav ul li ul{
   width:426px;
 }
 
+#services{
+  background:#EBEBE8;
+  padding-bottom: 45px;
+}
 
+/* Clear Fix */
+#services:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#services h2{
+  display:none;
+}
+
+#services article{
+  float:left;
+  text-align: center;
+  margin-right:50px;
+  width:300px;
+}
+
+#services article:last-child{
+  margin-right:0;
+}
+
+#services article h3{
+  color:#2A2E39;
+  font-size:36px;
+  font-weight:normal;
+  margin:25px 0 10px 0;
+  padding:0;
+  text-transform:uppercase;
+}
+
+#services article a{
+  color:#EB6D4C;
+  font-size:20px;
+  font-weight:bold;
+  text-decoration:underline;
+  text-transform:uppercase;
+}
 /**
  * Classes
  */
