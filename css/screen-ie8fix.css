@@ -2,11 +2,8 @@ img{
   border: 0;
 }
 
-#spotlight p{
-  background-color: #EB6D4C;
-}
-
 #services article{
+  margin-right:0;
   padding:0 16px;
   width:300px;
 }

@@ -109,7 +109,7 @@ nav ul li ul{
 }
 
 #spotlight p{
-  background:rgba(235,108,76,0.8);
+  background-color: #EB6D4C;
   bottom:50px;
   color:white;
   font-family:"Brandon Grotesque Regular", Arial, sans-serif;
@@ -120,6 +120,10 @@ nav ul li ul{
   position:absolute;
   text-transform:uppercase;
   width:426px;
+}
+
+.rgba #spotlight p{
+  background:rgba(235,108,76,0.8);
 }
 
 #services{
