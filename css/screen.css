@@ -33,30 +33,22 @@ a{
 
 header{
   background:#2A2E39;
-  height:120px;
+  padding:1em 0;
 }
 
 header h1{
-  left:0;
   margin:0;
   padding:0;
-  position:absolute;
-  top:41px;
 }
 
 header h1 a{
   background:url(../img/logo.png) no-repeat;
   display:block;
   height:50px;
+  margin: 0 auto;
   outline:none;
   text-indent:-9999px;
   width:250px;
-}
-
-nav{
-  top:47px;
-  position:absolute;
-  right:0;
 }
 
 nav h2{
@@ -69,21 +61,14 @@ nav ul{
 }
 
 nav ul li{
-  border-right:1px solid #78839F;
-  display:inline;
   list-style-type: none;
-  padding:0 19px;
-}
-
-nav ul li:last-child{
-  border:0;
-  padding-right:0;
+  text-align:center;
 }
 
 nav ul li a{
   color: white;
   font-family:"Brandon Grotesque Regular";
-  font-size:18px;
+  font-size:1.125em;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -100,26 +85,19 @@ nav ul li ul{
   background:url(../img/banner.jpg) no-repeat center top;
 }
 
-#spotlight .wrapper{
-  height:400px;
-}
-
 #spotlight h2{
   display:none;
 }
 
 #spotlight p{
-  background-color: #EB6D4C;
-  bottom:50px;
+  background-color:#EB6D4C;
   color:white;
   font-family:"Brandon Grotesque Regular", Arial, sans-serif;
-  font-size:43px;
-  left:0;
+  font-size:2.688em;
   margin:0;
-  padding:0 7px;
-  position:absolute;
+  padding:0 0.438em;
+  text-align:center;
   text-transform:uppercase;
-  width:426px;
 }
 
 .rgba #spotlight p{
@@ -128,7 +106,6 @@ nav ul li ul{
 
 #services{
   background:#EBEBE8;
-  padding-bottom: 45px;
 }
 
 /* Clear Fix */
@@ -145,26 +122,19 @@ nav ul li ul{
 #services article{
   float:left;
   text-align: center;
-  margin-right:50px;
-  width:300px;
-}
-
-#services article:last-child{
-  margin-right:0;
 }
 
 #services article h3{
   color:#2A2E39;
-  font-size:36px;
+  font-size:2.250em;
   font-weight:normal;
-  margin:25px 0 10px 0;
   padding:0;
   text-transform:uppercase;
 }
 
 #services article a{
   color:#EB6D4C;
-  font-size:20px;
+  font-size:1.250em;
   font-weight:bold;
   text-decoration:underline;
   text-transform:uppercase;
@@ -175,10 +145,6 @@ nav ul li ul{
   content:"";
   display:table;
   clear:both;
-}
-
-#portfolio .wrapper{
-  width:100% !important;
 }
 
 #portfolio h2{
@@ -195,7 +161,7 @@ nav ul li ul{
   list-style-type:none;
   overflow:hidden;
   padding:0;
-  width:20%;
+  width:100%;
 }
 
 #portfolio ul li article{
@@ -209,7 +175,7 @@ nav ul li ul{
   color:white;
   display:none;
   left:0;
-  padding:24px 28px 20px 20px;
+  padding:1.500em 1.750em 1.250em 1.250em;
   position:absolute;
   right:0;
   top:0;
@@ -217,25 +183,29 @@ nav ul li ul{
 
 #portfolio ul li article .info h3{
   color:white;
-  font-size:20px;
+  font-size:1.250em;
   font-weight:bold;
-  margin:0 0 16px 0;
+  margin:0 0 1em 0;
   padding:0;
   text-transform: uppercase;
 }
 
 #portfolio ul li article .info p{
   color:black;
-  font-size:14px;
+  font-size:0.875em;
 }
 
 #portfolio ul li article .info .readmore a{
-  bottom:16px;
+  bottom:1em;
   color:white;
   text-decoration:none;
   text-transform:uppercase;
   position:absolute;
-  z-index: 1;
+  z-index:1;
+}
+
+#portfolio ul li article img{
+  width:100%;
 }
 
 #portfolio ul li article:hover .info{
@@ -250,42 +220,27 @@ nav ul li ul{
 
 #clients{
   background:#B6B6B6;
-  padding:24px 0 48px 0;
+  padding:1.500em 0 3em 0;
 }
 
 #clients h2{
   font-family:"Brandon Grotesque Regular";
-  font-size:36px;
+  font-size:2.250em;
   margin:0;
   padding:0;
+  text-align:center;
   text-transform:uppercase;
 }
 
 #clients ul{
-  margin:40px 0;
+  margin:2.500em 0 0 0;
   padding:0;
   position:relative;
   text-align:center;
 }
 
-#clients ul:before{
-  content: url(../img/arrow-left.png);
-  position:absolute;
-  left:-30px;
-  top:10px;
-}
-
-#clients ul:after{
-  content: url(../img/arrow-right.png);
-  position:absolute;
-  right:-30px;
-  top:10px;
-}
-
 #clients ul li{
-  display:inline-block;
   list-style-type: none;
-  padding:0 30px;
 }
 
 /* Clear Fix */
@@ -297,7 +252,7 @@ footer:after {
 
 footer{
   background:#292E39;
-  padding:24px 0 32px 0;
+  padding:1.500em 0 2em 0;
 }
 
 footer h2{
@@ -306,44 +261,35 @@ footer h2{
 
 footer p{
   color: #B6B6B6;
-  font-size:14px;
-  margin:5px 0 0 0;
+  font-size:0.875em;
+  text-align:center;
   padding: 0;
 }
 
 footer ul{
-  margin:0;
+  margin:1em 0;
   padding:0;
 }
 
 footer ul li{
   border-right:1px solid #B6B6B6;
-  display:inline-block;
   list-style-type:none;
-  padding:0 8px;
-}
-
-footer ul li:first-child{
-  padding-left:0;
-}
-
-footer ul li:last-child{
-  border-right:0;
+  text-align:center;
 }
 
 footer ul li a{
   color:#EB6D4C;
-  font-size:14px;
+  font-size:0.875em;
   text-decoration: none;
 }
 
 footer .social{
-  position:absolute;
-  right:0;
+  text-align:center;
 }
 
 footer .social li{
   border-right:0;
+  display:inline-block;
 }
 
 footer .social li a{
@@ -381,5 +327,165 @@ footer .social li a.rss{
 .wrapper{
   margin: 0 auto;
   position:relative;
-  width:1000px;
+  width:100%;
+}
+
+@media only screen and (min-width:768px){
+
+  #spotlight .wrapper{
+    height:200px;
+    padding:100px 0;
+  }
+
+  #spotlight p{
+    margin:0 auto;
+    width:50%;
+  }
+
+  #portfolio .wrapper{
+    width:100% !important;
+  }
+
+  #portfolio ul li{
+    width:50%;
+  }
+
+  .wrapper{
+    width:95%;
+  }
+
+}
+
+@media only screen and (min-width:1024px){
+
+  header{
+    padding:0;
+    height:120px;
+  }
+
+  header h1{
+    left:0;
+    position:absolute;
+    top:41px;
+  }
+
+  nav{
+    top:47px;
+    position:absolute;
+    right:0;
+  }
+
+  nav ul li{
+    border-right:1px solid #78839F;
+    display:inline;
+    text-align:left;
+    padding:0 1.188em;
+  }
+
+  nav ul li:last-child{
+    border:0;
+    padding-right:0;
+  }
+
+  #spotlight p{
+    bottom:50px;
+    left:0;
+    position:absolute;
+    text-align:left;
+    width:42%;
+  }
+
+  #services{
+    padding-bottom: 45px;
+  }
+
+  #services article{
+    margin-right:5%;
+    width:30%;
+  }
+
+  #services article:last-child{
+    margin-right:0;
+  }
+
+  #portfolio ul li{
+    width:20%;
+  }
+
+  #portfolio ul li article{
+    height:140px;
+  }
+
+  #portfolio ul li article .info{
+    padding:0.75em 1em 0.5em 0.5em;
+  }
+
+  #portfolio ul li article .info h3{
+    font-size:1em;
+  }
+
+  #clients h2{
+    text-align:left;
+  }
+
+  #clients ul li{
+    display:inline-block;
+    padding:0 30px;
+  }
+
+  footer p{
+    margin:5px 0 0 0;
+    text-align:left;
+    padding: 0;
+  }
+
+  footer ul{
+    margin:0;
+  }
+
+  footer ul li{
+    display:inline-block;
+    text-align:left;
+    padding:0 8px;
+  }
+
+  footer ul li:first-child{
+    padding-left:0;
+  }
+
+  footer ul li:last-child{
+    border-right:0;
+  }
+
+  footer .social{
+    position:absolute;
+    right:0;
+  }
+
+  footer .social li{
+    padding:0;
+  }
+
+  .wrapper{
+    width:1000px;
+  }
+}
+
+@media only screen and (min-width:1200px){
+
+  #portfolio ul li{
+    width:20%;
+  }
+
+  #portfolio ul li article{
+    height:180px;
+  }
+
+  #portfolio ul li article .info{
+    padding:1.500em 1.750em 1.250em 1.250em;
+  }
+
+  #portfolio .wrapper{
+    width:100% !important;
+  }
 }
