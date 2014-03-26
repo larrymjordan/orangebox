@@ -33,7 +33,6 @@ a{
 
 header{
   background:#2A2E39;
-  padding:1em 0;
 }
 
 header h1{
@@ -45,7 +44,6 @@ header h1 a{
   background:url(../img/logo.png) no-repeat;
   display:block;
   height:50px;
-  margin: 0 auto;
   outline:none;
   text-indent:-9999px;
   width:250px;
@@ -96,7 +94,7 @@ nav ul li ul{
   font-size:2.688em;
   margin:0;
   padding:0 0.438em;
-  text-align:center;
+  text-align:left;
   text-transform:uppercase;
 }
 
@@ -128,7 +126,6 @@ nav ul li ul{
   color:#2A2E39;
   font-size:2.250em;
   font-weight:normal;
-  padding:0;
   text-transform:uppercase;
 }
 
@@ -318,174 +315,4 @@ footer .social li a.pinterest{
 
 footer .social li a.rss{
   background:url(../img/social-rss.png) no-repeat;
-}
-
-/**
- * Classes
- */
-
-.wrapper{
-  margin: 0 auto;
-  position:relative;
-  width:100%;
-}
-
-@media only screen and (min-width:768px){
-
-  #spotlight .wrapper{
-    height:200px;
-    padding:100px 0;
-  }
-
-  #spotlight p{
-    margin:0 auto;
-    width:50%;
-  }
-
-  #portfolio .wrapper{
-    width:100% !important;
-  }
-
-  #portfolio ul li{
-    width:50%;
-  }
-
-  .wrapper{
-    width:95%;
-  }
-
-}
-
-@media only screen and (min-width:1024px){
-
-  header{
-    padding:0;
-    height:120px;
-  }
-
-  header h1{
-    left:0;
-    position:absolute;
-    top:41px;
-  }
-
-  nav{
-    top:47px;
-    position:absolute;
-    right:0;
-  }
-
-  nav ul li{
-    border-right:1px solid #78839F;
-    display:inline;
-    text-align:left;
-    padding:0 1.188em;
-  }
-
-  nav ul li:last-child{
-    border:0;
-    padding-right:0;
-  }
-
-  #spotlight p{
-    bottom:50px;
-    left:0;
-    position:absolute;
-    text-align:left;
-    width:42%;
-  }
-
-  #services{
-    padding-bottom: 45px;
-  }
-
-  #services article{
-    margin-right:5%;
-    width:30%;
-  }
-
-  #services article:last-child{
-    margin-right:0;
-  }
-
-  #portfolio ul li{
-    width:20%;
-  }
-
-  #portfolio ul li article{
-    height:140px;
-  }
-
-  #portfolio ul li article .info{
-    padding:0.75em 1em 0.5em 0.5em;
-  }
-
-  #portfolio ul li article .info h3{
-    font-size:1em;
-  }
-
-  #clients h2{
-    text-align:left;
-  }
-
-  #clients ul li{
-    display:inline-block;
-    padding:0 30px;
-  }
-
-  footer p{
-    margin:5px 0 0 0;
-    text-align:left;
-    padding: 0;
-  }
-
-  footer ul{
-    margin:0;
-  }
-
-  footer ul li{
-    display:inline-block;
-    text-align:left;
-    padding:0 8px;
-  }
-
-  footer ul li:first-child{
-    padding-left:0;
-  }
-
-  footer ul li:last-child{
-    border-right:0;
-  }
-
-  footer .social{
-    position:absolute;
-    right:0;
-  }
-
-  footer .social li{
-    padding:0;
-  }
-
-  .wrapper{
-    width:1000px;
-  }
-}
-
-@media only screen and (min-width:1200px){
-
-  #portfolio ul li{
-    width:20%;
-  }
-
-  #portfolio ul li article{
-    height:180px;
-  }
-
-  #portfolio ul li article .info{
-    padding:1.500em 1.750em 1.250em 1.250em;
-  }
-
-  #portfolio .wrapper{
-    width:100% !important;
-  }
 }
