@@ -44,6 +44,7 @@ header h1 a{
   background:url(../img/logo.png) no-repeat;
   display:block;
   height:50px;
+  margin:0 auto;
   outline:none;
   text-indent:-9999px;
   width:250px;
@@ -154,15 +155,13 @@ nav ul li ul{
 }
 
 #portfolio ul li{
-  float:left;
   list-style-type:none;
   overflow:hidden;
   padding:0;
-  width:100%;
 }
 
 #portfolio ul li article{
-  height:200px;
+
   position:relative;
 }
 
@@ -315,4 +314,64 @@ footer .social li a.pinterest{
 
 footer .social li a.rss{
   background:url(../img/social-rss.png) no-repeat;
+}
+
+@media only screen and (min-width: 40.063em) {
+  header{
+    padding: 2em 0;
+  }
+  header h1 a{
+    margin: 0;
+  }
+  nav ul li{
+    border-right:1px solid #78839F;
+    display:inline;
+    text-align:left;
+    padding:0 1.188em;
+  }
+  nav ul li:last-child{
+    border:0;
+    padding-right:0;
+  }
+  #spotlight .columns{
+    height:25em;
+    position:relative;
+  }
+  #spotlight p{
+    bottom:3.125em;
+    left:0;
+    position:absolute;
+    text-align:left;
+    width:45%;
+  }
+  #clients h2{
+    text-align:left;
+  }
+  footer p{
+    margin:0.313em 0 0 0;
+    text-align:left;
+    padding: 0;
+  }
+
+  footer ul{
+    margin:0;
+  }
+
+  footer ul li{
+    display:inline-block;
+    text-align:left;
+    padding:0 0.500em;
+  }
+
+  footer ul li:first-child{
+    padding-left:0;
+  }
+
+  footer ul li:last-child{
+    border-right:0;
+  }
+
+  footer .social li{
+    padding:0;
+  }
 }
